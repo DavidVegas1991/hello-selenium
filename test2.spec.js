@@ -40,6 +40,23 @@ describe('test2', function() {
     // 8 | sendKeys | name=q | ${KEY_ENTER}
     await driver.findElement(By.name("q")).sendKeys(Key.ENTER)
     // 9 | click | xpath=//div[@id='tads']/div/div/div/div/a/div | 
-    await driver.wait(until.elementLocated(By.xpath("//div[@id=\'tads\']/div/div/div/div/a/div"))).click()
+    await driver.wait(until.elementLocated(By.xpath("//div[@id=\'tads\']/div/div/div/div/a/div"))).click();
+
+
+    try{
+      // 10 | selectFrame | index=0 | 
+      await driver.switchTo().frame(-1)
+      // 11 | click | css=#introAgreeButton .RveJvd | 
+      await driver.wait(until.elementLocated(By.className("call"))).click();
+      // 12 | selectFrame | relative=parent | 
+      await driver.switchTo().defaultContent()
+    }catch{
+      console.log("no hay popup");
+    }
+
+    
+    
+
+
   })
 })
