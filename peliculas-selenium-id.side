@@ -1,0 +1,90 @@
+{
+  "id": "8b2c190d-f112-4ff2-9870-33f78b689356",
+  "version": "2.0",
+  "name": "peliculas-selenium-id",
+  "url": "https://www.rottentomatoes.com",
+  "tests": [{
+    "id": "e45794f9-3919-4578-8c7d-bcb1abf32741",
+    "name": "Untitled",
+    "commands": [{
+      "id": "a9780d14-44ef-43cf-9533-be8342ac92b8",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "a9a5b2f4-4af3-4a37-9c65-ce09218c1b07",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1099x875",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "afdaf2ca-5e26-4561-a909-310493040a60",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "id=nav-search-submit-button",
+      "targets": [
+        ["id=nav-search-submit-button", "id"],
+        ["css=#nav-search-submit-button", "css:finder"],
+        ["xpath=//input[@id='nav-search-submit-button']", "xpath:attributes"],
+        ["xpath=//span[@id='nav-search-submit-text']/input", "xpath:idRelative"],
+        ["xpath=//span/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "ed60c002-c554-4841-a91d-9b60d47e2159",
+      "comment": "",
+      "command": "click",
+      "target": "id=twotabsearchtextbox",
+      "targets": [
+        ["id=twotabsearchtextbox", "id"],
+        ["name=field-keywords", "name"],
+        ["css=#twotabsearchtextbox", "css:finder"],
+        ["xpath=//input[@id='twotabsearchtextbox']", "xpath:attributes"],
+        ["xpath=//form[@id='nav-search-bar-form']/div[2]/div/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "892e80ed-130f-4a8a-9286-198d01acea72",
+      "comment": "",
+      "command": "type",
+      "target": "id=twotabsearchtextbox",
+      "targets": [
+        ["id=twotabsearchtextbox", "id"],
+        ["name=field-keywords", "name"],
+        ["css=#twotabsearchtextbox", "css:finder"],
+        ["xpath=//input[@id='twotabsearchtextbox']", "xpath:attributes"],
+        ["xpath=//form[@id='nav-search-bar-form']/div[2]/div/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div/input", "xpath:position"]
+      ],
+      "value": "playstation 4 console"
+    }, {
+      "id": "66308775-b1fc-4ec1-9ec4-1bd3b7fa266f",
+      "comment": "",
+      "command": "sendKeys",
+      "target": "id=twotabsearchtextbox",
+      "targets": [
+        ["id=twotabsearchtextbox", "id"],
+        ["name=field-keywords", "name"],
+        ["css=#twotabsearchtextbox", "css:finder"],
+        ["xpath=//input[@id='twotabsearchtextbox']", "xpath:attributes"],
+        ["xpath=//form[@id='nav-search-bar-form']/div[2]/div/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div/input", "xpath:position"]
+      ],
+      "value": "${KEY_ENTER}"
+    }]
+  }],
+  "suites": [{
+    "id": "019d77c0-35d6-4276-bdc5-5dbc07c3353f",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["e45794f9-3919-4578-8c7d-bcb1abf32741"]
+  }],
+  "urls": ["https://www.amazon.com/", "https://www.rottentomatoes.com/"],
+  "plugins": []
+}
