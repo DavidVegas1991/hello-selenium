@@ -1,0 +1,206 @@
+{
+  "id": "4cdaf6ca-d0d5-4a05-a197-3d1ac528df52",
+  "version": "2.0",
+  "name": "Robobar-selenium-test",
+  "url": "http://localhost:3000",
+  "tests": [{
+    "id": "b5dbc79d-92ba-4977-bade-654e7fac5dd3",
+    "name": "robobar-test1",
+    "commands": [{
+      "id": "3ddae57b-1654-4302-b0c1-a4abd71f8fdb",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "4d9c2abd-650a-433b-b425-1f0ee6dda2e0",
+      "comment": "",
+      "command": "click",
+      "target": "css=.ng-scope:nth-child(1) > .ng-binding:nth-child(1)",
+      "targets": [
+        ["css=.ng-scope:nth-child(1) > .ng-binding:nth-child(1)", "css:finder"],
+        ["xpath=//td", "xpath:position"],
+        ["xpath=//td[contains(.,'Roba Cola')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "9412ebc6-4744-46d2-b256-4224f833a2fa",
+      "comment": "",
+      "command": "click",
+      "target": "css=.ng-scope:nth-child(1) > .ng-binding:nth-child(2)",
+      "targets": [
+        ["css=.ng-scope:nth-child(1) > .ng-binding:nth-child(2)", "css:finder"],
+        ["xpath=//td[2]", "xpath:position"],
+        ["xpath=//td[contains(.,'€1.25')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "5387afea-b056-4e8a-9397-d12cd7d862be",
+      "comment": "",
+      "command": "click",
+      "target": "css=.ng-scope:nth-child(1) > td .input-group-append > .btn",
+      "targets": [
+        ["css=.ng-scope:nth-child(1) > td .input-group-append > .btn", "css:finder"],
+        ["xpath=//div[2]/button", "xpath:position"],
+        ["xpath=//button[contains(.,'+')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "240067e4-1db1-48fc-a914-8324ff235c8b",
+      "comment": "",
+      "command": "click",
+      "target": "css=tr:nth-child(4) > .ng-binding",
+      "targets": [
+        ["css=tr:nth-child(4) > .ng-binding", "css:finder"],
+        ["xpath=//tr[4]/th[2]", "xpath:position"],
+        ["xpath=//th[contains(.,'€1.25')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "14d264e1-703d-4db5-a10d-396cbf9679f3",
+      "comment": "",
+      "command": "click",
+      "target": "css=.ng-scope:nth-child(2) > .ng-binding:nth-child(1)",
+      "targets": [
+        ["css=.ng-scope:nth-child(2) > .ng-binding:nth-child(1)", "css:finder"],
+        ["xpath=//tr[2]/td", "xpath:position"],
+        ["xpath=//td[contains(.,'Robo Beer')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "0b94cc4d-167b-4289-998e-f2a7a5078b1c",
+      "comment": "",
+      "command": "click",
+      "target": "css=.ng-scope:nth-child(2) > .ng-binding:nth-child(2)",
+      "targets": [
+        ["css=.ng-scope:nth-child(2) > .ng-binding:nth-child(2)", "css:finder"],
+        ["xpath=//tr[2]/td[2]", "xpath:position"],
+        ["xpath=//td[contains(.,'€2.00')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "841b7e72-77ad-4cbe-836a-99a98f161df8",
+      "comment": "",
+      "command": "click",
+      "target": "css=.ng-scope:nth-child(2) > td .input-group-append > .btn",
+      "targets": [
+        ["css=.ng-scope:nth-child(2) > td .input-group-append > .btn", "css:finder"],
+        ["xpath=//tr[2]/td[3]/div/div/div[2]/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "d438375f-e176-40b8-b0af-4ef7e190386d",
+      "comment": "",
+      "command": "click",
+      "target": "css=tr:nth-child(4) > .ng-binding",
+      "targets": [
+        ["css=tr:nth-child(4) > .ng-binding", "css:finder"],
+        ["xpath=//tr[4]/th[2]", "xpath:position"],
+        ["xpath=//th[contains(.,'€3.25')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "2e6b5d2e-2d56-43e5-8a21-35f8852852b9",
+      "comment": "",
+      "command": "click",
+      "target": "css=.ng-scope:nth-child(3) > .ng-binding:nth-child(1)",
+      "targets": [
+        ["css=.ng-scope:nth-child(3) > .ng-binding:nth-child(1)", "css:finder"],
+        ["xpath=//tr[3]/td", "xpath:position"],
+        ["xpath=//td[contains(.,'Rob(w)ine')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "c8116fb6-5171-406d-be2a-d0b7b1cad48d",
+      "comment": "",
+      "command": "click",
+      "target": "css=.ng-scope:nth-child(3) > .ng-binding:nth-child(2)",
+      "targets": [
+        ["css=.ng-scope:nth-child(3) > .ng-binding:nth-child(2)", "css:finder"],
+        ["xpath=//tr[3]/td[2]", "xpath:position"],
+        ["xpath=//td[contains(.,'€3.00')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "c6268afa-cb89-48ab-95e6-e1c30b244fae",
+      "comment": "",
+      "command": "click",
+      "target": "css=.ng-scope:nth-child(3) .input-group-append > .btn",
+      "targets": [
+        ["css=.ng-scope:nth-child(3) .input-group-append > .btn", "css:finder"],
+        ["xpath=//tr[3]/td[3]/div/div/div[2]/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "cb744077-92fa-44a8-b0ab-d3f9b2aaf30a",
+      "comment": "",
+      "command": "click",
+      "target": "css=tr:nth-child(4) > .ng-binding",
+      "targets": [
+        ["css=tr:nth-child(4) > .ng-binding", "css:finder"],
+        ["xpath=//tr[4]/th[2]", "xpath:position"],
+        ["xpath=//th[contains(.,'€6.25')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "67583ea0-f2dd-4179-9954-ad1cff8ace31",
+      "comment": "",
+      "command": "click",
+      "target": "css=.btn-success",
+      "targets": [
+        ["css=.btn-success", "css:finder"],
+        ["xpath=//button[@type='submit']", "xpath:attributes"],
+        ["xpath=//div[3]/div/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Submit order')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "26bbc6e8-4221-4497-9270-92e9207fc9f0",
+      "comment": "",
+      "command": "click",
+      "target": "id=ageInput",
+      "targets": [
+        ["id=ageInput", "id"],
+        ["css=#ageInput", "css:finder"],
+        ["xpath=//input[@id='ageInput']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "8ec8219e-393b-4a93-8d5e-81f00aacaa72",
+      "comment": "",
+      "command": "type",
+      "target": "id=ageInput",
+      "targets": [
+        ["id=ageInput", "id"],
+        ["css=#ageInput", "css:finder"],
+        ["xpath=//input[@id='ageInput']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "21"
+    }, {
+      "id": "4bdca9b2-be0b-4534-93de-2bd97e6bfc39",
+      "comment": "",
+      "command": "click",
+      "target": "css=.btn-success",
+      "targets": [
+        ["css=.btn-success", "css:finder"],
+        ["xpath=//button[@type='submit']", "xpath:attributes"],
+        ["xpath=//button[2]", "xpath:position"],
+        ["xpath=//button[contains(.,'Order')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "4aef6965-fd9c-4e82-9ebd-8d44aefce86c",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["b5dbc79d-92ba-4977-bade-654e7fac5dd3"]
+  }],
+  "urls": ["http://localhost:3000/"],
+  "plugins": []
+}
